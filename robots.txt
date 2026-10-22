@@ -1,2 +1,19 @@
+# Link preview bots (Instagram, Facebook, WhatsApp, X, LinkedIn) may read the page
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Facebot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+# Demo site: keep search engines out until it goes live
 User-agent: *
 Disallow: /
