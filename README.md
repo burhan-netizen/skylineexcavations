@@ -9,4 +9,4 @@ Static site: open `index.html`, or deploy the folder as-is on Vercel (no build s
 - `assets/video`: muted site clips (MP4)
 - `assets/fonts`: self-hosted EB Garamond, Jost and JetBrains Mono
 
-`robots.txt` blocks search engines while this is a demo. Remove it when the site goes live.
+A `noindex` meta tag in `index.html` keeps search engines out while this is a demo, without blocking link previews. Remove it when the site goes live.
